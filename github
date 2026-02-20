@@ -1,0 +1,5 @@
+---------after the intilized-----
+
+git add .
+git commit -m "Added project files"
+git push

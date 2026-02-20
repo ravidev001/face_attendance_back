@@ -9,7 +9,9 @@ python -m pip install numpy
 
 
 python -m venv venv
+
 venv\Scripts\activate
+
 python -m pip install face_recognition opencv-python numpy
 
 

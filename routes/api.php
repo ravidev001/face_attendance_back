@@ -16,9 +16,14 @@ Route::patch('/tasks/{id}', [TaskController::class, 'markComplete']);
 
 Route::post('/image-match', [ImageMatchController::class, 'match']);
 
+
+// working route 
+
 Route::post('/register-face', [ImageMatchController::class, 'register']);
 Route::post('/verify-face', [ImageMatchController::class, 'verify']);
 
+Route::post('/add-ip', [ImageMatchController::class, 'SaveIP']);
+Route::get('/get-ip', [ImageMatchController::class, 'getIP']);
 
 Route::get('/test', function () {
     return response()->json(['msg' => 'API OK']);
