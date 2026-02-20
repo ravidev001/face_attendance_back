@@ -1,0 +1,25 @@
+python -m pip install --upgrade pip
+
+----------for face recognition--------
+
+python -m pip install face_recognition
+python -m pip install opencv-python
+python -m pip install numpy
+
+
+
+python -m venv venv
+venv\Scripts\activate
+python -m pip install face_recognition opencv-python numpy
+
+
+python -m pip install insightface onnxruntime opencv-python numpy
+
+
+----------python package-------------
+python -m pip install insightface onnxruntime opencv-python numpy flask
+
+
+----------run python------
+python face_service.py
+
